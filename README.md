@@ -6,3 +6,13 @@
 -  BackgroundService
 -  Injeção de dependência
 -  Console Application em um container docker
+
+Dependencias: 
+- CommandLineParser
+- SeriLog
+- Serilog.Extensions.Hosting
+- SeriLogSettingsConfiguration
+- SeriLogSinksConsole
+- Microsoft.Extensions.Configuration
+- Microsoft.Extensions.Hosting
+- Microsoft.Extensions.DependencyInjection
