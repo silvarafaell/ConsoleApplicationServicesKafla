@@ -23,19 +23,9 @@ namespace ConsoleApp1
                 .WriteTo.Console()
                 .CreateLogger();
 
-            //Log.Logger.Information("Information");
-            //Log.Logger.Warning("Warning");
-            //Log.Logger.Error("Error");
-            //Log.Logger.Fatal("Fatal");
-
-            //Console.ReadLine();
-
             Parser.Default.ParseArguments<Options>(args)
                 .WithParsed(opts =>
                 {
-                    //Log.Logger.Information($"{opts.host}");
-                    //Log.Logger.Information($"{opts.requisicoes}");
-
                     var app = Host.CreateDefaultBuilder()
                     .ConfigureServices((context, services) =>
                     {
@@ -48,7 +38,6 @@ namespace ConsoleApp1
                     app.Run();
                 });
 
-            //Log.Logger.Information("Fim da aplicação");
         }
     }
 }
