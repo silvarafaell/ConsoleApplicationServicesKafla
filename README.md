@@ -19,4 +19,4 @@ Dependencias:
 - Microsoft.Extensions.Configuration
 - Microsoft.Extensions.Hosting
 - Microsoft.Extensions.DependencyInjection
-- Executar comando de acordo com direotrio do dockerfile(docker build -f Dockerfile -t app-teste)
+- Executar comando de acordo com diretorio do dockerfile(docker build -f Dockerfile -t app-teste)
